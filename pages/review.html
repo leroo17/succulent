@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.png" type="png">
+  <title>I love succulents!</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+
+</head>
+<body id="body_review">
+
+
+  <div class="modal d-flex-center" id="modal">
+    <div class="content">
+        <div class="card_item">
+          <img id="pic" class="small-pic">
+          <h2 id="head" class="head-modal center">Заголовок</h2>
+          <p id="desc">Описание</p>
+          <button id="close" class="close pointer">Закрыть окно</button>
+        </div>
+    </div>
+  </div>
+  <header class="header">
+    <nav>
+      <div class="menu_burged-div">
+        <div class="menu_burged-div-inner">
+          <div class="menu2" id="menu2">
+            <div id="catalog_menu-inner"><a href="../index.html">Акции</a></div>
+            <div id="catalog_menu-inner"><a href="../index.html">Каталог</a>
+              <div class="catalog_menu catalog_menu2">
+                <a class="" href="../index.html">Хавортия</a>
+                <a class="" href="../index.html">Эхеверия</a>
+                <a class="" href="../index.html">Седум</a>
+                <a class="" href="../index.html">Кактусы</a>
+                <a class="" href="../index.html">Композиции и флорариумы</a>
+              </div>
+            </div>
+            <div id="catalog_menu-inner"><a href="#review">Отзывы</a></div>
+            <div id="info_menu-inner"><a href="../index.html">Инфо</a>
+              <div class="info_catalog_menu info_catalog_menu2">
+                <a href="../index.html">Доставка</a>
+                <a href="../index.html">Оплата</a>
+              </div>
+            </div>
+            <div id="catalog_menu-inner"><a href="#contacts">Контакты</a></div>
+          </div>
+        </div>
+      </div>  
+
+      <div class="logo">
+        <a href="../index.html"><img src="../images/logo.png" id="logo_img"></a>
+        <a id="logo_text" href="../index.html">I &#128154; succulents!</a>
+      </div>
+      <div class="menu" id="menu">
+        <button id="close" class="close"></button>
+        <a href="../index.html">Акции</a>
+        <div id="catalog_menu-inner"><a href="../index.html">Каталог</a>
+          <div class="catalog_menu">
+            <a class="" href="../index.html">Хавортия</a>
+            <a class="" href="../index.html">Эхеверия</a>
+            <a class="" href="../index.html">Седум</a>
+            <a class="" href="../index.html">Кактусы</a>
+            <a class="" href="../index.html">Композиции и флорариумы</a>
+          </div>
+        </div>
+        <a href="#review">Отзывы</a>
+        <div id="info_menu-inner"><a href="../index.html">Инфо</a>
+          <div class="info_catalog_menu">
+            <a href="../index.html">Доставка</a>
+            <a href="../index.html">Оплата</a>
+          </div>
+        </div>
+        <a href="#contacts">Контакты</a>
+      </div>
+
+      <div class="header_contact">
+        <a href="tel: +78000000000" id="phone_link">+7 (800) 000-00-00</a>
+        <a id="phone" href="tel: +78000000000"><img src="../images/phone.svg" alt=""></a>
+
+        <a href="#contacts" id="adress_link">г. Санкт-Петербург, Вилькицкий б-р. д. 7</a>
+        <a id="location" href="#"><img src="../images/location.svg" alt=""></a>
+      </div>
+      <div class="header_acc">
+        <div class="lk">
+          <a href="#modal_acc"><img src="../images/acc.png" alt=""></a>
+        </div>
+        <div class="header_basket">
+          <a href="#"><img src="../images/basket.svg" alt=""></a>
+          <div class="basket_quantity-div">
+            <span id="basket_quantity">0</span>
+          </div>
+          
+        </div>
+      </div>
+
+    </nav>
+  </header>
+    <main class="main_review">
+      <div class="modal_acc" id="modal_acc">
+        <div class="window_acc">
+          <h3 class="title0704">Войти в аккаунт</h3>
+          <form class="form_acc" action="#">
+            <p>Логин</p>
+            <input class="btn-0704" type="text" required>
+            <p>Пароль</p>
+            <input class="btn-0704" type="password" required>
+            <div class="form0704-btn">
+              <a href="#"><input class="btn-0704 btn0704" type="submit" value="Войти"></a>
+          </form>
+          </div>
+        </div>
+      </div>
+        <a name="top"></a>
+        <a href="#top" class="top"></a>
+        <a class="anchor" name="action"></a>
+       
+         <section class="review_one review_one">
+          <a name="review" id="review_anchor"></a>
+          <div class="review_card-inner review_card-inner-one">
+                  <div class="review_card review_card-one" id="review_card-1">
+                    <div class="review_main-inner review_main-inner-one">
+                      <div class="review_img-inner"></div>
+                      <div class="review_h3-inner">
+                        <h3 class="review_h3"></h3>
+                        <p class="review_p-date"></p>
+                      </div>
+                    </div>
+                    <div class="review_text-inner">
+                      
+                      <p class="review_p-review"></p>
+                    </div>
+                  </div>
+                  <div class="review_card review_card-one" id="review_card-2">
+                    <div class="review_main-inner review_main-inner-one">
+                      <div class="review_img-inner"></div>
+                      <div class="review_h3-inner">
+                        <h3 class="review_h3"></h3>
+                        <p class="review_p-date"></p>
+                      </div>
+                    </div>
+                    
+                    <div class="review_text-inner">
+                      
+                      <p class="review_p-review"></p>
+                    </div>
+                  </div>
+
+
+                  <div class="review_card review_card-one" id="review_card-3">
+                    <div class="review_main-inner review_main-inner-one">
+                      <div class="review_img-inner"></div>
+                      <div class="review_h3-inner">
+                        <h3 class="review_h3"></h3>
+                        <p class="review_p-date"></p>
+                      </div>
+                    </div>
+                    
+                    <div class="review_text-inner">
+                      
+                      <p class="review_p-review"></p>
+                    </div>
+                  </div>
+                  <div class="review_card review_card-one" id="review_card-4">
+                    <div class="review_main-inner review_main-inner-one">
+                      <div class="review_img-inner"></div>
+                      <div class="review_h3-inner">
+                        <h3 class="review_h3"></h3>
+                        <p class="review_p-date"></p>
+                      </div>
+                    </div>
+                    
+                    <div class="review_text-inner">
+                      
+                      <p class="review_p-review"></p>
+                    </div>
+                  </div>
+                
+          </div>
+        </div>
+          
+            <a href="../index.html" class="btn-outside review-btn">Вернуться назад</a>
+          
+        </section>
+    </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer_inner">
+        <div class="desc_footer">
+          <a href="index.html"><h2>I &#128154; succulents!</h2></a>
+          <p>Сайт по продаже суккулентов и цветочных композиций</p>
+          <p>2023. Все права защищены</p>
+        </div>
+        <div class="menu_footer">
+          <a href="../index.html">Акции</a>
+          <a href="../index.html">Каталог</a>
+          <a href="../index.html">Доставка</a>
+          <a href="../index.html">Отзывы</a>
+          <a href="../index.html">Контакты</a>
+          <a href="../index.html">Инфо</a>
+          <a href="#modal_acc">Личный кабинет</a>
+          <a href="../index.html">Корзина </a>
+          <a href="../index.html">Форма обратной связи</a>
+        </div>
+        <div class="social_footer">
+          <p>Мы в социальных сетях:</p>
+          <a href="https://vk.com/vk_irishkin"><img src="../images/vk.svg" alt=""></a>
+          <a href="https://youtube.com"><img src="../images/you.svg" alt=""></a>
+          <a href="https://t.me/irish_kin"><img src="../images/tlgr.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    
+let review = [
+    {
+        name: "Егор Селиванов",
+        date: "05.05.2023г.",
+        review: "Заказывал у этой компании флорариум ко дню рождения девушки. Она была в восторге, спасибо!",
+        photo: "../images/rewiew3.jpg"
+    },
+    {
+        name: "Анна Быстрова",
+        date: "10.03.2023г.",
+        review: "Добрый день! Хочу выразить вам огромную благодарность за флорариум! Невероятно красиво и достойно смотрится! Благодарю за доставку в срок! Успехов вам и развития!",
+        photo: "../images/rewiew4.jpg"
+    },
+    {
+        name: "Анастасия Петрова",
+        date: "25.02.2023г.",
+        review: "Хороший магазин, все очень понравилось, доставка быстрая. Флорариум живет у меня уже три месяца, все хорошо, спасибо за радость и красоту!",
+        photo: "../images/rewiew1.jpg"
+    },
+    {
+        name: "Юлия Иванова",
+        date: "15.02.2023г.",
+        review: "Очень красивые флорариумы. Брала в подарок, сотрудники учли все мои пожелания, очень красиво! Спасибо!",
+        photo: "../images/rewiew2.jpg"
+    },
+
+
+];
+
+let l = 0;
+    for (let el of review) {
+        let imgInner = document.getElementsByClassName("review_img-inner");
+        let revImg = document.createElement("img");
+        revImg.src = el.photo;
+        imgInner[l].appendChild(revImg);
+
+        let h3 = document.getElementsByClassName("review_h3");
+        h3[l].innerHTML = el.name;
+        let p = document.getElementsByClassName("review_p-date");
+        p[l].innerHTML = el.date;
+        let p2 = document.getElementsByClassName("review_p-review");
+        p2[l].innerHTML = el.review;
+        l++;
+    };
+  </script>
+
+</body>
+</html>
