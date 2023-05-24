@@ -1876,6 +1876,7 @@ main {
   }
   .gasteria, .havortia, .echeveria, .aloe, .sedum, .cactus, .composition {
     width: 100%;
+    justify-content: center;
   }
 
   .window_acc {
